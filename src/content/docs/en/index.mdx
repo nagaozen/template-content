@@ -1,0 +1,44 @@
+---
+title: Starlight 🌟 Build documentation sites with Astro
+head:
+  - tag: title
+    content: Starlight 🌟 Build documentation sites with Astro
+description: Starlight helps you build beautiful, high-performance documentation websites with Astro.
+template: splash
+hero:
+  title: Welcome to Understanding Astro
+  tagline: Everything you need to build a stellar brand website. Fast, accessible, and easy-to-use.
+  image:
+    file: ../../../assets/hero.png
+  actions:
+    - text: Example Guide
+      link: /guides/example/
+      icon: right-arrow
+    - text: Read the Starlight docs
+      link: https://starlight.astro.build
+      icon: external
+      variant: minimal
+editUrl: false
+lastUpdated: false
+---
+
+import { CardGrid, Card } from '@astrojs/starlight/components';
+
+<CardGrid stagger>
+	<Card title="Documentation that delights" icon="open-book">
+		Includes: Site navigation, search, internationalization, SEO, easy-to-read
+		typography, code highlighting, dark mode and more.
+	</Card>
+	<Card title="Powered by Astro" icon="rocket">
+		Leverage the full power and performance of Astro. Extend Starlight with your
+		favorite Astro integrations and libraries.
+	</Card>
+	<Card title="Markdown, Markdoc, and MDX" icon="document">
+		Bring your favorite markup language. Starlight gives you built-in
+		frontmatter validation with TypeScript type-safety.
+	</Card>
+	<Card title="Bring your own UI components" icon="puzzle">
+		Starlight ships as a framework-agnostic, complete docs solution. Extend with
+		React, Vue, Svelte, Solid, and more.
+	</Card>
+</CardGrid>

@@ -1,0 +1,22 @@
+---
+import StarlightPage from '@astrojs/starlight/components/StarlightPage.astro'
+---
+
+<StarlightPage
+  frontmatter={{
+    title: 'My Custom Page'
+  }}
+  sidebar={[
+    { label: 'Home', link: '/' },
+    {
+      label: 'Constellations',
+      items: [
+        { label: 'Andromeda', link: '/andromeda/' },
+        { label: 'Orion', link: '/orion/' },
+        { label: 'Ursa Minor', link: '/ursa-minor/', badge: 'Stub' },
+      ],
+    },
+  ]}
+>
+  <h1>Hello World</h1>
+</StarlightPage>
