@@ -38,6 +38,7 @@ export default defineConfig({
           },
         ])
       ],
+      favicon: '/favicon.svg',
       title: 'Evolved Docs',
       logo: {
         src: './src/assets/logo.lr.web.png',
