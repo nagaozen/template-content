@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "destination": "/pt-br/",
+      "statusCode": 308
+    }
+  ]
+}
